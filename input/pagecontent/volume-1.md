@@ -1,7 +1,9 @@
 
-# 1:XX Profile name
+# Radiology Pathology Concordance (RPC)
 
-**TODO: Provide an end-user friendly overview of what the profile does for them. Keep it brief (a paragraph or two, up to a page). If extensive detail is needed, it should be included in Section XX.4- Use Cases.**
+**The Radiology Pathology Concordance (RPC) Profile describes how discrete data elements are collected from structured reports to create an integrated report, where concordance of results is assessed, and reports are shared to an EMR or system in use by a health facility.
+The integrated report would extract data from structured radiology and pathology reports, compare the extracted results and assign a score based on the concordance of the results which will be included in a new integrated report.
+Use cases include the correlation of structured reporting data for Breast, Prostate and Thyroid cancers, as well as the use of integrated diagnostic reports for radiologist training, as well as a tool in MCC’s and Tumor Board discussions to support decision making for patient care.**
 
 **TODO: Explicitly state whether this is a Workflow, Transport, or Content Module (or combination) profile. See the IHE Technical Frameworks General Introduction for definitions of these profile types. The IHE Technical Frameworks [General Introduction](https://profiles.ihe.net/GeneralIntro/). **
 
@@ -9,13 +11,19 @@
 
 * Actors
 
-  - [Client](#client)
+  - [Content Creator](#contentcreator)
 
-  - [Server](#server)
+  - [Content Consumer](#contentconsumer)
+
+  - [Content Data Structure Creator](#contentdatastructurecreator)
+
+  - [Content Data Structure Consumer](#contentdatastructureconsumer)
 
 * Transactions
 
-  - [do domain-Y](domain-YY.html)
+  - [LAB-Y](LAB-Y.html)
+
+  - [LAB-Y2](LAB-Y2.html)
 
 Actors and transactions are used to achieve this use-case...
 
