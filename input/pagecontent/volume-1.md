@@ -2,6 +2,7 @@
 # Radiology Pathology Concordance (RPC)
 
 **The Radiology Pathology Concordance (RPC) Profile describes how discrete data elements are collected from structured reports to create an integrated report, where concordance of results is assessed, and reports are shared to an EMR or system in use by a health facility.
+
 The integrated report would extract data from structured radiology and pathology reports, compare the extracted results and assign a score based on the concordance of the results which will be included in a new integrated report.
 Use cases include the correlation of structured reporting data for Breast, Prostate and Thyroid cancers, as well as the use of integrated diagnostic reports for radiologist training, as well as a tool in MCC’s and Tumor Board discussions to support decision making for patient care.**
 
