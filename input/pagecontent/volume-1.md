@@ -22,14 +22,14 @@ Use cases include the correlation of structured reporting data for Breast, Prost
 
 * Transactions
 
-  - [LAB-Y](LAB-Y.html)
+  - [LAB-90](LAB-90.html)
 
-  - [LAB-Y2](LAB-Y2.html)
+  - [LAB-91](LAB-91.html)
 
 Actors and transactions are used to achieve this use-case...
 
 <div>
-{%include Lab90.svg%}
+{%include LAB90.svg%}
 </div>
 <br clear="all">
 
@@ -37,9 +37,7 @@ Actors and transactions are used to achieve this use-case...
 
 This section defines the actors and transactions in this implementation guide.
 
-Figure below shows the actors directly
-involved in the RPC
-Profile and the relevant transactions between them.
+Figure below shows the actors directly involved in the RPC Profile and the relevant transactions between them.
 
 <div>
 {%include RPCActorsAndTransactions.svg%}
@@ -66,25 +64,25 @@ The actors in this profile are described in more detail in the sections below.
 
 The Content Creator associates key data elements from the Pathology and Radiology structured reports, evaluates the identified data elements for concordance, and assigns a concordance score to the case and creates a concordance report. 
 
-FHIR Capability Statement for [Client]{CapabilityStatement-IHE.PaLM.client.html}
+FHIR Capability Statement for [Content Creator](CapabilityStatement-IHE.RPC.ContentCreator.html)
 
 #### XX.1.1.2 Content Consumer <a name="Content Consumer"> </a>
 
 The Content Creator notifies the Content Consumer of the availability of the concordance report. Clinicians can log into the Content Consumer to retrieve the report and review for correlation and concordance.
 
-FHIR Capability Statement for [Server](CapabilityStatement-IHE.FooBar.server.html)
+FHIR Capability Statement for [Content Consumer](CapabilityStatement-IHE.RPC.ContentConsumer.html)
 
 #### XX.1.1.3 Content Data Structure Creator <a name="Content Data Structure Creator"> </a>
 
 The Content Data Structure creator defines a Measure Resource that would be exchanged between the Content Creator and Content Consumer. The implementing site would define the aggregate health data to be exchanged.
 
-FHIR Capability Statement for [Server](CapabilityStatement-IHE.FooBar.server.html)
+FHIR Capability Statement for [Content Data Structure Creator](CapabilityStatement-IHE.RPC.ContentDataStructureCreator.html)
 
 #### XX.1.1.4 Content Data Structure Consumer <a name="Content Data Structure Consumer"> </a>
 
 The Content Data Structure Consumer consumes a Measure Resource produced by a content data structure creator. The content creator or the content consumer may act as a Content Data Structure Consumer.
 
-FHIR Capability Statement for [Server](CapabilityStatement-IHE.FooBar.server.html)
+FHIR Capability Statement for [Content Data Structure Consumer](CapabilityStatement-IHE.RPC.ContentDataStructureConsumer.html)
 
 ### Transaction Descriptions
 The transactions in this profile are summarized in the sections below.

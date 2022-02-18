@@ -1,11 +1,12 @@
 @startuml
-participant Content Data Structure Consumer
-participant Content Creator
-participant Content Consumer
-participant Content Data Structure Creator
+skinparam sequenceMessageAlign center
+participant "Content Data Structure Consumer" order 10
+participant "Content Data Structure Creator" order 40
+participant "Content Creator" order 20
+participant "Content Consumer" order 30
 
-Content Data Structure Creator<-Content Data Structure Consumer:Retrieve Concordance Report Definition [LAB-91]
-Content Data Structure Creator->Content Data Structure Consumer:Retrieve Concordance Report Definition Response [LAB-91]
-Content Creator->Content Consumer:Send Concordance Report [LAB-90]
-Content Consumer->Content Creator: Send Concordance Report Response [LAB-90]
+"Content Data Structure Consumer" <- "Content Data Structure Creator" : Retrieve Concordance Report Definition [LAB-91]
+"Content Data Structure Consumer" -> "Content Data Structure Creator" : Retrieve Concordance Report Definition Response [LAB-91]
+"Content Creator" -> "Content Consumer" : Send Concordance Report [LAB-90]
+"Content Consumer" -> "Content Creator" : Send Concordance Report Response [LAB-90]
 @enduml

@@ -18,7 +18,7 @@ This guide is organized into four main sections:
 
 2. Volume II: Transaction Detail
    1. [Send Concordance Report \[LAB-90\]](LAB-90.html)
-   2. [Retreive Concordance Report Definition \[LAB-91\](LAB-91.html)
+   2. [Retrieve Concordance Report Definition \[LAB-91\]](LAB-91.html)
 
 3. Volume III: Metadata
    1. **TODO: point to your content profiles if you have them**

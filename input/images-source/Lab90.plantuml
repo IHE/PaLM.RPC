@@ -1,6 +1,5 @@
-startuml
-title RPC Sequence [LAB-90]
-
-Content Creator-->Content Consumer: Send Concordance Report [LAB-90]
-Content Consumer-->Content Creator: Send Concordance Report Response [LAB-90]
+@startuml
+skinparam sequenceMessageAlign center
+"Content Creator" --> "Content Consumer" : Send Concordance Report [LAB-90]
+"Content Consumer" --> "Content Creator" : Send Concordance Report Response [LAB-90]
 @enduml
