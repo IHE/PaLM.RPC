@@ -1,7 +1,7 @@
 
 **This Implementation Guide template includes skeleton pages for each part of an IHE supplement. The instructions for how to fill out those sections can be found in the included [Supplement Template](https://github.com/IHE/supplement-template/blob/master/suppl_template.md). This supplement template should not be included in your github repo or publication. It is included here for easy reference.**
 
-**TODO: The Radiology Pathology Concordance (RPC) Profile describes how discrete data elements are collected from structured reports to create an integrated report, where concordance of results is assessed, and reports are shared to an EMR or system in use by a health facility.**
+**The Radiology Pathology Concordance (RPC) Profile describes how discrete data elements are collected from structured reports to create an integrated report, where concordance of results is assessed, and reports are shared to an EMR or system in use by a health facility.**
 
 [Open and Closed Issues](issues.html)
 
@@ -17,7 +17,8 @@ This guide is organized into four main sections:
    1. [Cross Profile Considerations](volume-1.html#grouping)
 
 2. Volume II: Transaction Detail
-   1. [FooBar do \[domain-YY\]](domain-YY.html)
+   1. [Send Concordance Report \[LAB-90\]](LAB-90.html)
+   2. [Retreive Concordance Report Definition \[LAB-91\](LAB-91.html)
 
 3. Volume III: Metadata
    1. **TODO: point to your content profiles if you have them**
