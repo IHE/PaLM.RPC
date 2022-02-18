@@ -78,7 +78,7 @@ menu:
     Security Considerations: volume-1.html#security-considerations
     Cross-Profile Considerations: volume-1.html#grouping
   Volume 2:
-    "Send Concordance Report [LAB-90]": LAB-90.html
-    "Retrieve Concordance Report Definition [LAB-91]": LAB-91.html
+    Send Concordance Report [LAB-90]: LAB-90.html
+    Retrieve Concordance Report Definition [LAB-91]: LAB-91.html
   Test Plan: testplan.html
   Artifacts: artifacts.html
