@@ -8,7 +8,7 @@ Use cases include the correlation of structured reporting data for Breast, Prost
 
 **TODO: Explicitly state whether this is a Workflow, Transport, or Content Module (or combination) profile. See the IHE Technical Frameworks General Introduction for definitions of these profile types. The IHE Technical Frameworks [General Introduction](https://profiles.ihe.net/GeneralIntro/). **
 
-## 1:X.1 FooBar Actors, Transactions, and Content Modules <a name="actors-and-transactions"> </a>
+## 1:X.1 RPC Actors, Transactions, and Content Modules <a name="actors-and-transactions"> </a>
 
 * Actors
 
@@ -29,7 +29,7 @@ Use cases include the correlation of structured reporting data for Breast, Prost
 Actors and transactions are used to achieve this use-case...
 
 <div>
-{%include usecase1-processflow.svg%}
+{%include Lab90.svg%}
 </div>
 <br clear="all">
 
@@ -42,7 +42,7 @@ involved in the RPC
 Profile and the relevant transactions between them.
 
 <div>
-{%include ActorsAndTransactions.svg%}
+{%include RPCActorsAndTransactions.svg%}
 </div>
 <br clear="all">
 
@@ -52,10 +52,10 @@ Table XX.1-1: Profile Acronym Profile - Actors and Transactions
 
 | Actors                           | Transactions       | Initiator or Responder | Optionality                | Reference       |
 |---------                         |---------------     |------------------------|-----------------           |-----------------|
-| Content Creator                  | Send Concordance Report [LAB-Y]                          | Initiator | R | PaLM TF-2: 3.Y  |
-| Content Consumer                 | Send Concordance Report Response [LAB-Y]                 | Responder | R | PaLM TF-2: 3.Y |
-| Content Data Structure Consumer  | Retrieve Concordance Report Definition [LAB-Y2]          | Initiator | R | PaLM TF-2: 3.Y2 |
-| Content Data Structure Creator   | Retrieve Concordance Report Definition Response [LAB-Y2] | Responder | R | PaLM TF-2: 3.Y2 |
+| Content Creator                  | Send Concordance Report [LAB-90]                          | Initiator | R | PaLM TF-2: 3.Y  |
+| Content Consumer                 | Send Concordance Report Response [LAB-90]                 | Responder | R | PaLM TF-2: 3.Y |
+| Content Data Structure Consumer  | Retrieve Concordance Report Definition [LAB-91]          | Initiator | R | PaLM TF-2: 3.Y2 |
+| Content Data Structure Creator   | Retrieve Concordance Report Definition Response [LAB-91] | Responder | R | PaLM TF-2: 3.Y2 |
 
 {: .grid}
 
@@ -66,7 +66,7 @@ The actors in this profile are described in more detail in the sections below.
 
 The Content Creator associates key data elements from the Pathology and Radiology structured reports, evaluates the identified data elements for concordance, and assigns a concordance score to the case and creates a concordance report. 
 
-FHIR Capability Statement for [Client]{CapabilityStatement-IHE.FooBar.client.html}
+FHIR Capability Statement for [Client]{CapabilityStatement-IHE.PaLM.client.html}
 
 #### XX.1.1.2 Content Consumer <a name="Content Consumer"> </a>
 
@@ -89,17 +89,17 @@ FHIR Capability Statement for [Server](CapabilityStatement-IHE.FooBar.server.htm
 ### Transaction Descriptions
 The transactions in this profile are summarized in the sections below.
 
-#### Send Concordance Report [LAB-Y]
+#### Send Concordance Report [LAB-90]
 
 This transaction describes how to send data from a Content Creator to a Content Consumer.
 
-For more details see the detailed [LAB-Y] description (domain-YY.html)
+For more details see the detailed [LAB-90] description (LAB-90.html)
 
-#### Retrieve Concordance Report Definition [LAB-Y2]
+#### Retrieve Concordance Report Definition [LAB-91]
 
 This transaction is used to obtain the FHIR Measure to structure and validate a given FHIR MeasureReport. 
 
-For more details see the detailed [LAB-Y2] description (domain-YY.html)
+For more details see the detailed [LAB-91] description (LAB-91.html)
 
 ## XX.2 RPC Actor Options <a name="actor-options"> </a>
 
@@ -180,11 +180,11 @@ actor from a different profile.
 Modify the following “Swimlane Diagram”.
 
 <div>
-{%include usecase1-processflow.svg%}
+{%include RPCActorsAndTransactions.svg%}
 </div>
 <br clear="all">
 
-Figure XX.4.2.1-2: Radiologist Training Process Flow
+Figure XX.4.2.1-2: Basic Process Flow in RPC Profile
 
 If process flow “swimlane” diagrams require additional explanation
 to clarify conditional flows, or flow variations need to be described
