@@ -20,7 +20,7 @@ The Send Concordance Report [LAB-90] transaction is used to transfer a structure
 ### Interactions
 
 <div>
-{%include domain-Y-seq.svg%}
+{%include LAB-90.svg%}
 </div>
 <br clear="all">
 
@@ -109,12 +109,12 @@ A Content Consumer SHALL respond with appropriate error codes in the event of re
 ### CapabilityStatement Resource
 
 Server implementing this transaction shall provide a CapabilityStatement Resource as described in ITI TF-2x: Appendix Z.3 indicating the transaction has been implemented. 
-* Requirements CapabilityStatement for [Client](CapabilityStatement-IHE.FooBar.client.html)
-* Requirements CapabilityStatement for [Server](CapabilityStatement-IHE.FooBar.server.html)
+* Requirements CapabilityStatement for [Content Creator](CapabilityStatement-IHE.RPC.contentcreator.html)
+* Requirements CapabilityStatement for [Content Consumer](CapabilityStatement-IHE.RPC.contentconsumer.html)
 
 ### Security Considerations
 
-See [MHD Security Considerations](volume-1.html#security-considerations)
+See [RPC Security Considerations](volume-1.html#security-considerations)
 
 This profile is assumed to use patient data. The appropriate security precautions are expected to be taken to protect PHI, these should include the precautions outlined in the PaLM Security Environment Considerations in PaLM TF-1: Appendix A.
 Transport of RPC data SHOULD be safeguarded according to jurisdictional guidelines. To protect data integrity these SHOULD include encryption of the transport layer and the use of an appropriate mutual authentication mechanism which meets these guidelines. 

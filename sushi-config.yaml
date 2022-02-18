@@ -55,9 +55,11 @@ pages:
   volume-1.md:
     title: 1:XX. RPC Volume 1
     generation: markdown
-  domain-YY.md:
-    title: 2:3.YY Transaction one [Domain-YY]
+  LAB-90.md:
+    title: 2:90. Send Concordance Report [LAB-90]
     generation: markdown
+  Lab-90.md:
+    title: 2.91. Retrieve Concordance Report Definition [LAB-91]
   testplan.md:
     title: "Test Plan"
     generation: markdown
@@ -76,6 +78,7 @@ menu:
     Security Considerations: volume-1.html#security-considerations
     Cross-Profile Considerations: volume-1.html#grouping
   Volume 2:
-    "Transaction one [Domain-YY]": domain-YY.html
+    "Send Concordance Report [LAB-90]": LAB-90.html
+    "Retrieve Concordance Report Definition [LAB-91]": LAB-91.html
   Test Plan: testplan.html
   Artifacts: artifacts.html

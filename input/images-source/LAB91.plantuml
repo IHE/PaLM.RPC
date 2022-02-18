@@ -1,0 +1,9 @@
+@startuml
+title Retrieve Concordance Report Definition [LAB-91]
+ 
+
+Content Data Structure Consumer->Content Data Structure Creator:Retrieve Concordance Report Definition [LAB-91]
+Content Data Structure Creator->Content Data Structure Consumer:Concordance Report Definition Response [LAB-91]
+
+bottomparticipants
+@enduml
