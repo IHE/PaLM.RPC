@@ -1,21 +1,21 @@
 # sushi-config.yaml is documented https://fshschool.org/docs/sushi/configuration/
 # ───────────────────────────────────────────────────
-id: IHE.Domain.Profile
-canonical: http://profiles.ihe.net/Domain/Profile
+id: ihe.palm.rpc
+canonical: http://profiles.ihe.net/PaLM/RPC
 version: 0.1.0
-name: IHE_Domain_Profile
-title: "spelled out name of the IHE Profile"
+name: IHE_PaLM_RPC
+title: "IHE PaLM - Radiology Pathology Concordance (RPC)"
 status: active
 publisher:
   - name: IHE IT Infrastructure Technical Committee
-  - url: https://www.ihe.net/ihe_domains/it_infrastructure/
+  - url: https://www.ihe.net/ihe_domains/ihe_pathology_and_laboratory_medicine/
   - email: iti@ihe.net
 contact:
-  - name: IHE IT Infrastructure Technical Committee
+  - name: IHE Pathology and Laboratory Medicine Technical Committee
     telecom:
       - system: email
-        value: iti@ihe.net
-description: put the short description of the profile here. it should explain what problem is being solved
+        value: palm@ihe.net
+description: Describes how discrete data elements are collected from structured reports to create an integrated report, where concordance of results is assessed, and reports are shared to an EMR or system in use by a health facility.
 license:  CC-BY-SA-4.0
 fhirVersion: 4.0.1
 jurisdiction: 'http://unstats.un.org/unsd/methods/m49/m49.htm#001'
@@ -50,10 +50,10 @@ resources:
 pages:
 # itemize here each narrative page. Include assigned section numbers when appropriate
   index.md:
-    title: 1:XX. Profile Home
+    title: 1:XX. RPC Home
     generation: markdown
   volume-1.md:
-    title: 1:XX. Profile Volume 1
+    title: 1:XX. RPC Volume 1
     generation: markdown
   domain-YY.md:
     title: 2:3.YY Transaction one [Domain-YY]
@@ -66,7 +66,7 @@ pages:
     generation: markdown
 
 menu:
-  FooBar Home: index.html
+  RPC Home: index.html
   Volume 1:
     Introduction: volume-1.html
     Actors and Transactions: volume-1.html#actors-and-transactions
