@@ -58,8 +58,9 @@ pages:
   LAB-90.md:
     title: 2:90. Send Concordance Report [LAB-90]
     generation: markdown
-  Lab-90.md:
+  LAB-91.md:
     title: 2.91. Retrieve Concordance Report Definition [LAB-91]
+    generation: markdown
   testplan.md:
     title: "Test Plan"
     generation: markdown

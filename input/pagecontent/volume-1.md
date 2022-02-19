@@ -29,7 +29,7 @@ Use cases include the correlation of structured reporting data for Breast, Prost
 Actors and transactions are used to achieve this use-case...
 
 <div>
-{%include LAB90.svg%}
+{%include LAB-90.svg%}
 </div>
 <br clear="all">
 
