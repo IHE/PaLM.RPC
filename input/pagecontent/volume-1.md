@@ -105,35 +105,7 @@ No options have been defined for this profile.
 
 ## XX.3 RPC Required Actor Groupings <a name="required-groupings"> </a>
 
-<table border="1" borderspacing="0" style='border: 1px solid black; border-collapse: collapse'>
-<thead>
-<tr class="even">
-<td>Content Creator</td>
-<td>None</td>
-<td>--</td>
-<td>--</td>
-</tr>
-<tr class="odd">
-<td>Content Consumer</td>
-<td>None</td>
-<td>--</td>
-<td>--</td>
-</tr>
-<tr class="even">
-<td>Content Data Structure Creator</td>
-<td>None</td>
-<td>--</td>
-<td>--</td>
-</tr>
-<tr class="odd">
-<td>Content Data Structure Consumer</td>
-<td>None</td>
-<td>--</td>
-<td>--</td>
-</tr>
-</tbody>
-</table>
-
+RPC has no required actor groupings. Optional actor groupings are defined in Section X.1.
 
 ## XX.4 RPC Overview <a name="overview"> </a>
 
