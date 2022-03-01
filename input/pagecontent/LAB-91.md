@@ -9,7 +9,7 @@ The Retrieve Concordance Report Definition [Lab-91] transaction is used to obtai
 **Table: Actor Roles**
 
 |Actor | Role |
-|-------------------+--------------------------|
+|-------------------|--------------------------|
 | [Content Data Structure Creator](volume-1.html#contentdatastructurecreator)    | The Content Data Structure Creator is responsible for the creation of a Measure Resource, which specifies the structure of a given MeasureReport |
 | [Content Data Structure Consumer](volume-1.html#contentdatastructureconsumer) | A Content Data Structure Consumer is responsible for receiving the Measure Resource and validating its messages |
 
@@ -73,7 +73,7 @@ A Content Data Structure Creator SHALL return a Report Concordance Definition Re
 
 The Content Data Structure Creator SHALL conform to HTTPS standards and respond to the Retrieve Concordance Report Definition Request with the appropriate status code outlined in the table below.
 
-Table 3.Y2.4.2.2-1: Retrieve Concordance Report Definition Result Status Codes
+###### Table 3.Y2.4.2.2-1: Retrieve Concordance Report Definition Result Status Codes
 
 | HTTP Status Code | Interpretation |
 | ---------------- | -------------- |

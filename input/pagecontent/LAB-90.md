@@ -8,8 +8,8 @@ The Send Concordance Report [LAB-90] transaction is used to transfer a structure
 
 **Table: Actor Roles**
 
-|Actor | Role |
-|-------------------+--------------------------|
+|Actor              | Role |
+|-------------------|--------------------------|
 | [Content Creator](volume-1.html#contentcreator)    | The Content Creator is responsible for the creation of a FHIR MeasureReport containing correlated radiology and pathology data |
 | [Content Consumer](volume-1.html#contentconsumer) | The Content Consumer receives the concordance report containing correlated results |
 
@@ -83,9 +83,10 @@ A Content Consumer sends a Send Concordance Report Response when the Concordance
 ##### Message Semantics
 
 The Send Concordance Report Result is implemented as an HTTP Response. The response may include content in the body to provide an implementation specific informative message on the completed status of the transaction. The response shall contain an HTTP status code. The table below describes the codes which may be produced by the Content Consumer which have a specific meaning related to the transaction.
+
 Note that a Content Creator should be prepared to handle additional status codes not particular to the transaction, such as authorization, server or network error codes. HTTP status codes correspond to FHIR HTTP 3.1.0.4.2 Rejecting Updates (https://www.hl7.org/fhir/http.html#rejecting-updates). 
 
-Table 3.Y.4.2.2-1: Send Concordance Report Result status codes
+###### Table 3.Y.4.2.2-1: Send Concordance Report Result status codes
 
 | HTTP Status Code | Interpretation |
 | ---------------- | -------------- |
