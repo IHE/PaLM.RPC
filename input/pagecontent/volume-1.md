@@ -12,7 +12,7 @@ Use cases include the correlation of structured reporting data for Breast, Prost
 
 * Actors
 
-  - [Content Creator][#content-creator]
+  - [Content Creator][Content Creator]
 
   - [Content Consumer](#content-consumer)
 
