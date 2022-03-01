@@ -12,13 +12,13 @@ Use cases include the correlation of structured reporting data for Breast, Prost
 
 * Actors
 
-  - [Content Creator](#contentcreator)
+  - [Content Creator](#content-creator)
 
-  - [Content Consumer](#contentconsumer)
+  - [Content Consumer](#content-consumer)
 
-  - [Content Data Structure Creator](#contentdatastructurecreator)
+  - [Content Data Structure Creator](#content-data-structure-creator)
 
-  - [Content Data Structure Consumer](#contentdatastructureconsumer)
+  - [Content Data Structure Consumer](#content-data-structure-consumer)
 
 * Transactions
 
