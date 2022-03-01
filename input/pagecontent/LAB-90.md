@@ -48,10 +48,7 @@ The Content Creator creates an RPC conformant message containing correlated resu
 |             | Description |
 |-------------|-----------|
 | URL         | The RPC Profile does not prescribe the form of the URL to be advertised by a Content Consumer except that the scheme of the URL SHALL be “https.” |
-| Headers     | The Update request SHALL contain a Content-type header identifying the payload 
-Type:Content-type: application/fhir+xml
-Type:Content-type: application/fhir+json
-The request MAY contain any additional headers. For example, a Content Consumer may require an Authorization header. |
+| Headers     | The Update request SHALL contain a Content-type header identifying the payload Type:Content-type: application/fhir+xml ; Type:Content-type: application/fhir+json The request MAY contain any additional headers. For example, a Content Consumer may require an Authorization header. |
 |             | A Content Consumer MAY support additional parameters |
 | BODY        | The body of a RPC Send Concordance Report request SHALL contain a valid RPC data payload as described in Section 8.2 of this profile. |
 
