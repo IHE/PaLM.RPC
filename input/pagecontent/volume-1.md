@@ -6,8 +6,6 @@
 The integrated report would extract data from structured radiology and pathology reports, compare the extracted results and assign a score based on the concordance of the results which will be included in a new integrated report.
 Use cases include the correlation of structured reporting data for Breast, Prostate and Thyroid cancers, as well as the use of integrated diagnostic reports for radiologist training, as well as a tool in MCC’s and Tumor Board discussions to support decision making for patient care.**
 
-**TODO: Explicitly state whether this is a Workflow, Transport, or Content Module (or combination) profile. See the IHE Technical Frameworks General Introduction for definitions of these profile types. The IHE Technical Frameworks [General Introduction](https://profiles.ihe.net/GeneralIntro/). **
-
 ## 1:X.1 RPC Actors, Transactions, and Content Modules <a name="actors-and-transactions"> </a>
 
 * Actors
@@ -91,7 +89,7 @@ The transactions in this profile are summarized in the sections below.
 
 This transaction describes how to send data from a Content Creator to a Content Consumer.
 
-For more details see the detailed [LAB-90] description (LAB-90.html)
+For more details see the detailed [LAB-90](LAB-90.html) description
 
 #### Retrieve Concordance Report Definition [LAB-91]
 

@@ -10,8 +10,8 @@ The Send Concordance Report [LAB-90] transaction is used to transfer a structure
 
 |Actor              | Role |
 |-------------------|--------------------------|
-| [Content Creator](volume-1.html#contentcreator)    | The Content Creator is responsible for the creation of a FHIR MeasureReport containing correlated radiology and pathology data |
-| [Content Consumer](volume-1.html#contentconsumer) | The Content Consumer receives the concordance report containing correlated results |
+| [Content Creator](http://build.fhir.org/ig/IHE/PaLM.RPC/branches/master/volume-1.html#xx111-content-creator--)    | The Content Creator is responsible for the creation of a FHIR MeasureReport containing correlated radiology and pathology data |
+| [Content Consumer](http://build.fhir.org/ig/IHE/PaLM.RPC/branches/master/volume-1.html#xx112-content-consumer--) | The Content Consumer receives the concordance report containing correlated results |
 
 ### Referenced Standards
 
@@ -114,7 +114,7 @@ Server implementing this transaction shall provide a CapabilityStatement Resourc
 
 ### Security Considerations
 
-See [RPC Security Considerations](volume-1.html#security-considerations)
+See [RPC Security Considerations](http://build.fhir.org/ig/IHE/PaLM.RPC/branches/master/volume-1.html#xx5-rpc-security-considerations--)
 
 This profile is assumed to use patient data. The appropriate security precautions are expected to be taken to protect PHI, these should include the precautions outlined in the PaLM Security Environment Considerations in PaLM TF-1: Appendix A.
 

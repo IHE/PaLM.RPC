@@ -2,7 +2,7 @@ This section corresponds to transaction [LAB-91] of the IHE Technical Framework.
 
 ### Scope
 
-The Retrieve Concordance Report Definition [Lab-91] transaction is used to obtain the FHIR Measure to structure and validate a given FHIR MeasureReport.
+The Retrieve Concordance Report Definition [LAB-91] transaction is used to obtain the FHIR Measure to structure and validate a given FHIR MeasureReport.
 
 ### Actors Roles
 
@@ -10,8 +10,8 @@ The Retrieve Concordance Report Definition [Lab-91] transaction is used to obtai
 
 |Actor | Role |
 |-------------------|--------------------------|
-| [Content Data Structure Creator](volume-1.html#contentdatastructurecreator)    | The Content Data Structure Creator is responsible for the creation of a Measure Resource, which specifies the structure of a given MeasureReport |
-| [Content Data Structure Consumer](volume-1.html#contentdatastructureconsumer) | A Content Data Structure Consumer is responsible for receiving the Measure Resource and validating its messages |
+| [Content Data Structure Creator](http://build.fhir.org/ig/IHE/PaLM.RPC/branches/master/volume-1.html#xx113-content-data-structure-creator--)    | The Content Data Structure Creator is responsible for the creation of a Measure Resource, which specifies the structure of a given MeasureReport |
+| [Content Data Structure Consumer](http://build.fhir.org/ig/IHE/PaLM.RPC/branches/master/volume-1.html#xx114-content-data-structure-consumer--) | A Content Data Structure Consumer is responsible for receiving the Measure Resource and validating its messages |
 
 ### Referenced Standards
 
