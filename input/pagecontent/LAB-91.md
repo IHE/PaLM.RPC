@@ -48,7 +48,10 @@ The following table describes the messaging semantics for a Concordance Report D
 |             | Description |
 | ----------- | ----------- |
 | URL         | The RPC Profile does not prescribe the form of the URL to be advertised by a Content Consumer except that the scheme of the URL SHALL be “https”. |
-| Headers     | The Read request SHALL contain a Content-type header identifying the payload <br>Type:Content-type: application/ fhir+xml <br>Type:Content-type: application/fhir+json  <br>The request MAY contain any additional headers. For example, a Content Creator may require an Authorization header. |
+| Headers     | The Read request SHALL contain a Content-type header identifying the payload |
+|             | Type:Content-type: application/ fhir+xml |
+|             | Type:Content-type: application/fhir+json |
+|             | The request MAY contain any additional headers. For example, a Content Creator may require an Authorization header. |
 | BODY        | The body of an RPC Retrieve Data Structure request SHALL contain the ID of the requested Measure resource. |
 
 ##### Expected Actions
