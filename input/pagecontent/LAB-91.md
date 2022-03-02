@@ -118,10 +118,12 @@ Server implementing this transaction shall provide a CapabilityStatement Resourc
 
 ### Security Considerations
 
-See [RPC Security Considerations](volume-1.html#security-considerations)
+See [RPC Security Considerations](http://build.fhir.org/ig/IHE/PaLM.RPC/branches/master/volume-1.html#xx5-rpc-security-considerations--) 
 
 This profile is assumed to use patient data. The appropriate security precautions are expected to be taken to protect PHI, these should include the precautions outlined in the PaLM Security Environment Considerations in PaLM TF-1: Appendix A.
+
 Transport of RPC data SHOULD be safeguarded according to jurisdictional guidelines. To protect data integrity these SHOULD include encryption of the transport layer and the use of an appropriate mutual authentication mechanism which meets these guidelines. 
+
 Content Consumers should also take adequate account of security considerations related to the generic processing of RPC documents.
 
 #### Security Audit Considerations

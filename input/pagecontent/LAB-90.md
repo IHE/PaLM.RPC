@@ -48,7 +48,10 @@ The Content Creator creates an RPC conformant message containing correlated resu
 |             | Description |
 |-------------|-----------|
 | URL         | The RPC Profile does not prescribe the form of the URL to be advertised by a Content Consumer except that the scheme of the URL SHALL be “https.” |
-| Headers     | The Update request SHALL contain a Content-type header identifying the payload Type:Content-type: application/fhir+xml ; Type:Content-type: application/fhir+json The request MAY contain any additional headers. For example, a Content Consumer may require an Authorization header. |
+| Headers     | The Update request SHALL contain a Content-type header identifying the payload |
+|             | Type:Content-type: application/fhir+xml |
+|             | Type:Content-type: application/fhir+json |
+|             | The request MAY contain any additional headers. For example, a Content Consumer may require an Authorization header.|
 |             | A Content Consumer MAY support additional parameters |
 | BODY        | The body of a RPC Send Concordance Report request SHALL contain a valid RPC data payload as described in Section 8.2 of this profile. |
 
@@ -114,7 +117,9 @@ Server implementing this transaction shall provide a CapabilityStatement Resourc
 See [RPC Security Considerations](volume-1.html#security-considerations)
 
 This profile is assumed to use patient data. The appropriate security precautions are expected to be taken to protect PHI, these should include the precautions outlined in the PaLM Security Environment Considerations in PaLM TF-1: Appendix A.
+
 Transport of RPC data SHOULD be safeguarded according to jurisdictional guidelines. To protect data integrity these SHOULD include encryption of the transport layer and the use of an appropriate mutual authentication mechanism which meets these guidelines. 
+
 Content Consumers should also take adequate account of security considerations related to the generic processing of RPC documents.
 
 #### Security Audit Considerations
