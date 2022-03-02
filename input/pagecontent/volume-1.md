@@ -95,7 +95,7 @@ For more details see the detailed [LAB-90](LAB-90.html) description
 
 This transaction is used to obtain the FHIR Measure to structure and validate a given FHIR MeasureReport. 
 
-For more details see the detailed [LAB-91] description (LAB-91.html)
+For more details see the detailed [LAB-91](LAB-91.html) description 
 
 ## XX.2 RPC Actor Options <a name="actor-options"> </a>
 
@@ -127,57 +127,12 @@ This concordance score will then be shared back with the Radiologist issuing the
 
 ##### XX.4.2.1.2 simple name Process Flow
 
-Diagram and describe the process flow(s) covered by this profile in
-order to satisfy the use cases. Demonstrate how the profile transactions
-are combined/sequenced. To provide context and demonstrate how the
-profile interacts with other profiles, feel free to include transactions
-and events that are “external” to this profile (using appropriate
-notation.)
-
-The set of process flows will typically be exemplary, not exhaustive
-(i.e., it will address all the use cases, but will not show all possible
-combinations of actors, or all possible sequencing of transactions).
-
-If there are detailed behavioral rules that apply to a specific process
-flow or multiple process flows, an appendix may be added as needed.
-
-The roles at the top of the swimlane diagram should correspond to
-actor names, include the profile acronym:actor name if referencing an
-actor from a different profile.
-
-Modify the following “Swimlane Diagram”.
-
 <div>
 {%include RPCActorsAndTransactions.svg%}
 </div>
 <br clear="all">
 
 Figure XX.4.2.1-2: Basic Process Flow in RPC Profile
-
-If process flow “swimlane” diagrams require additional explanation
-to clarify conditional flows, or flow variations need to be described
-where alternate systems may be playing different actor roles, document
-those conditional flows here.
-
-Delete the material below if this is a workflow or transport
-profile. Delete the material above if this profile is a content module
-only profile.
-
-**Pre-conditions**:
-
-Very briefly (typically one sentence) describe the conditions or
-timing when this content module would be used.
-
-**Main Flow**:
-
-Typically in an enumerated list, describe the clinical workflow
-when, where, and how this content module would be used.
-
-**Post-conditions:**
-
-Very briefly (typically one sentence) describe the state of the
-clinical scenario after this content module has been created including
-examples of potential next steps.
 
 #### XX.4.2.2 Use Case \#2: Rad-Path Concordance and Reporting for MCC/Tumor Board Review
 
