@@ -183,8 +183,8 @@ Data elements important to the diagnosis of Prostate Cancer will be extracted fr
 | Prostate Size	| Prostate Size: Size (centimeters)	| Equal	| 1..1 |
 | Lesion Size |	Tumor size (dominant nodule, if present):|	Equivalent |	1..1 |
 |Tumor Location	| Location of dominant nodule	| Equivalent	| 1..1 |
-| Extracapsular extension	| Extraprostatic Extension (EPE) (Note F)	|Equal	| 1..1 |
-| Seminal vesicle invasion |	Seminal Vesicle Invasion (Note H) |	Equal |	1..1 |
+| Extracapsular extension	| Extraprostatic Extension (EPE)	|Equal	| 1..1 |
+| Seminal vesicle invasion |	Seminal Vesicle Invasion | Equal |	1..1 |
 
 
 
