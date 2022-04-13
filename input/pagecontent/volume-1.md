@@ -159,7 +159,7 @@ Data elements important to the diagnosis of Breast Cancer will be extracted from
 
 | BIRADS Mammo |	BIRADS Ultrasound |	BIRADS MRI | CAP DCIS Biopsy |	CAP Invasive Breast Biopsy |	Equivalent |	Cardinality	| Notes |
 | ------------ | ------------------ | ---------- | --------------- | -------------------------- | ----------- | ------------ | ----- |
-| Masses |	Masses |	Masses |	Histologic Type |	Histologic Type |	Histologic Type | Related To Masses	| 1..*? |	May be valuable as a description of Mass |
+| Masses |	Masses |	Masses |	Histologic Type |	Histologic Type |	Histologic Type; Related To Masses	| 1..* |	May be valuable as a description of Mass |
 | Calcifications | Calcifications |	Microcalcifications |	Inexact |	*..1 | Comparing presence or not in Pathology. Radiology specifies |
 | Laterality | Laterality |	Laterality | Specimen Laterality |	Specimen Laterality |	Equal |	1..1 | For Quality Check |
 
