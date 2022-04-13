@@ -155,6 +155,8 @@ The College of American Pathologists (CAP) Cancer Protocols for DCIS Biopsy and 
 
 Data elements important to the diagnosis of Breast Cancer will be extracted from the LIS and RIS or Voice Recognition System through an application, to create an integrated diagnostic report that correlates radiology and pathology results. In particular it is the correlation of ‘Masses’ ‘Calcifications’ and ‘Laterality’ in BI-RADS and ‘Histologic Type’, ‘ Microcalcifications’ and ‘Specimen Laterality’ within the CAP Cancer Protocols that is required as part of an integrated diagnostic report to confirm diagnosis.
 
+
+
 #### XX.4.2.4 Use Case \#4: Prostate Rad-Path Concordance
 
 ##### XX.4.2.4.1 Prostate Rad-Path Concordance
@@ -166,6 +168,14 @@ The Prostate Imaging Reporting and Data System (PI-RADS) enables the structured 
 The College of American Pathologists (CAP) Cancer Protocols for Radical Prostatectomy collect pathologic data in a structured format which is integrated with laboratory information systems. 
 
 Data elements important to the diagnosis of Prostate Cancer will be extracted from the LIS, and RIS or voice recognition system through an application, to create an integrated diagnostic report that correlates radiology and pathology results. 
+
+|PI-RADS |	CAP Radical Prostatectomy Protocol|	Equivalent	Cardinality|	Notes|
+| Prostate Size	| Prostate Size: Size (centimeters)	| Equal	| 1..1 |	
+| Lesion Size |	Tumor size (dominant nodule, if present):|	Equivalent?|	1..1 |	
+|Tumor Location	| '+Location of dominant nodule	| Equivalent?	| 1..1 |	
+| Extracapsular extension	| Extraprostatic Extension (EPE) (Note F)	|Equal?	| 1..1 |	
+| Seminal vesicle invasion |	Seminal Vesicle Invasion (Note H) |	Equal |	1..1 |	
+
 
 #### XX.4.2.5 Use Case \#5: Thyroid Rad-Path Concordance
 
