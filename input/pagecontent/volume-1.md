@@ -169,12 +169,14 @@ The College of American Pathologists (CAP) Cancer Protocols for Radical Prostate
 
 Data elements important to the diagnosis of Prostate Cancer will be extracted from the LIS, and RIS or voice recognition system through an application, to create an integrated diagnostic report that correlates radiology and pathology results. 
 
-|PI-RADS |	CAP Radical Prostatectomy Protocol|	Equivalent	Cardinality|	Notes|
+|PI-RADS | CAP Radical Prostatectomy Protocol |	Equivalent |	Cardinality|	Notes |
+| ----- | ------------------------------------ | ---------- | -----------| ------ |
 | Prostate Size	| Prostate Size: Size (centimeters)	| Equal	| 1..1 |	
 | Lesion Size |	Tumor size (dominant nodule, if present):|	Equivalent?|	1..1 |	
 |Tumor Location	| '+Location of dominant nodule	| Equivalent?	| 1..1 |	
 | Extracapsular extension	| Extraprostatic Extension (EPE) (Note F)	|Equal?	| 1..1 |	
 | Seminal vesicle invasion |	Seminal Vesicle Invasion (Note H) |	Equal |	1..1 |	
+
 
 
 #### XX.4.2.5 Use Case \#5: Thyroid Rad-Path Concordance
