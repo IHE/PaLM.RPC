@@ -179,13 +179,13 @@ Data elements important to the diagnosis of Prostate Cancer will be extracted fr
 
 ###### Proposed Data Element Mapping
 
-| PI-RADS | CAP Radical Prostatectomy Protocol |	Equivalent |	Cardinality |
-| ----- | ------------------------------------ | ---------- | -----------|
-| Prostate Size	| Prostate Size: Size (centimeters)	| Equal	| 1..1 |
-| Lesion Size |	Tumor size (dominant nodule, if present):|	Equivalent |	1..1 |
-|Tumor Location	| Location of dominant nodule	| Equivalent	| 1..1 |
-| Extracapsular extension	| Extraprostatic Extension (EPE)	|Equal	| 1..1 |
-| Seminal vesicle invasion |	Seminal Vesicle Invasion | Equal |	1..1 |
+| PI-RADS | CAP Radical Prostatectomy Protocol |	Equivalent |	Cardinality | PI-RADS Response | CAP Prostate Resection Response |
+| ----- | ------------------------------------ | ---------- | -----------| ------------------- | ------------------------------- |
+| Prostate Size	| Prostate Size: Size (centimeters)	| Equal	| 1..1 | 4.0 x 4.0 x 5.0 L x W x H cm for 42 cubic cm, PSA density 0.29 ng/mL/mL | 4.0 cm x 4.0 cm x 5.0 cm |
+| Lesion Size |	Tumor size (dominant nodule, if present):|	Equivalent |	1..1 | 1.1 x 0.7 cm | 100mm |
+|Tumor Location	| Location of dominant nodule	| Equivalent	| 1..1 | Right midgland transition zone anterior (RM-TZa) on series 5 image 16, axial T2 | N/A |
+| Extracapsular extension	| Extraprostatic Extension (EPE)	|Equal	| 1..1 | No Involvement | Not Identified |
+| Seminal vesicle invasion |	Seminal Vesicle Invasion | Equal |	1..1 | Not Involved | Not Identified |
 
 
 
