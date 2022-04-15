@@ -179,7 +179,7 @@ Data elements important to the diagnosis of Prostate Cancer will be extracted fr
 
 ###### Proposed Data Element Mapping
 
-| PI-RADS | CAP Radical Prostatectomy Protocol |	Equivalent |	Cardinality | PI-RADS Response | CAP Prostate Resection Response |
+| PI-RADS | CAP Radical Prostatectomy Protocol |	Equivalent |	Cardinality | PI-RADS Response | CAP Radical Prostatectomy Response |
 | ----- | ------------------------------------ | ---------- | -----------| ------------------- | ------------------------------- |
 | Prostate Size	| Prostate Size: Size (centimeters)	| Equal	| 1..1 | 4.0 x 4.0 x 5.0 L x W x H cm for 42 cubic cm, PSA density 0.29 ng/mL/mL | 4.0 cm x 4.0 cm x 5.0 cm |
 | Lesion Size |	Tumor size (dominant nodule, if present):|	Equivalent |	1..1 | 1.1 x 0.7 cm | 100mm |
