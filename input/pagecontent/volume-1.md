@@ -157,11 +157,20 @@ Data elements important to the diagnosis of Breast Cancer will be extracted from
 
 ###### Proposed Data Element Mapping
 
-| BIRADS Mammo |	BIRADS Ultrasound |	BIRADS MRI | CAP DCIS Biopsy |	CAP Invasive Breast Biopsy |	Equivalent |	Cardinality	| Notes |
-| ------------ | ------------------ | ---------- | --------------- | -------------------------- | ----------- | ------------ | ----- |
-| Masses |	Masses |	Masses |	Histologic Type |	Histologic Type |	Histologic Type; Related To Masses	| 1..* |	May be valuable as a description of Mass |
-| Calcifications | Calcifications |	     |      | Microcalcifications |	Inexact |	*..1 | Comparing presence or not in Pathology. Radiology specifies |
-| Laterality | Laterality |	Laterality | Specimen Laterality |	Specimen Laterality |	Equal |	1..1 | For Quality Check |
+| BIRADS Mammo |	BIRADS Ultrasound |	BIRADS MRI | CAP DCIS Biopsy |	CAP Invasive Breast Biopsy |	Equivalent |	Cardinality	| Notes | Mammography Response | Ultrasound Response | MRI Response | CAP Invasive Breast Biopsy Response |
+| ------------ | ------------------ | ---------- | --------------- | -------------------------- | ----------- | ------------ | ----- | ---------------------| ------------------- | ------------ | ----------------------------------- |
+| Masses |	Masses |	Masses |	Histologic Type |	Histologic Type |	Histologic Type; Related To Masses	| 1..* |	May be valuable as a description of Mass | Shape: Round, 
+Margin: Microlobulated, 
+Density: Equal Density | Shape: Round,
+Orientation: Parallel, 
+Margin: Not Circumscribed - Microlobulated
+Echo Pattern: Hyperechoic
+Posterior Features: No posterior features | Shape: Round
+Margin: Not Circumscribed - Irregular
+Internal Enhancement Characteristics: Homogeneous | Invasive lobular carcinoma |
+| Calcifications | Calcifications |	     |      | Microcalcifications |	Inexact |	*..1 | Comparing presence or not in Pathology. Radiology specifies | Suspicious Morphology: Amorphous
+Distribution: Regional | Calcifications in a mass |          | Present in invasive Carcinoma |
+| Laterality | Laterality |	Laterality | Specimen Laterality |	Specimen Laterality |	Equal |	1..1 | For Quality Check | Left | N/A| N\A | Left | 
 
 
 #### XX.4.2.4 Use Case \#4: Prostate Rad-Path Concordance
