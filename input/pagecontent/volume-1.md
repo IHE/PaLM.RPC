@@ -158,12 +158,9 @@ Data elements important to the diagnosis of Breast Cancer will be extracted from
 ###### Proposed Data Element Mapping
 
 | BIRADS Mammography | CAP Invasive Breast Biopsy | Equivalent | Cardinality | Mammography Response | CAP Invasive Breast Biopsy Response | Notes |
-| ------------------ | -------------------------- | ---------- | ----------- | -------------------- | -------------------------- | ------ |
-| Masses | Histologic Type | Histologic Type ; Related to Masses | 1..* | May be valuable as a description of mass | | Shape: Round, 
-Margin: Microlobulated, 
-Density: Equal Density | Invasive lobular carcinoma | 
-| Calcifications | Microcalcifications | Inexact | *..1 | Comparing presence or not in Pathology. Radiology specifies | Suspicious Morphology: Amorphous
-Distribution: Regional | Present in invasive Carcinoma |
+| ------------------ | -------------------------- | ---------- | ----------- | -------------------- | --------------------------  | ------ |
+| Masses | Histologic Type | Histologic Type ; Related to Masses | 1..* | May be valuable as a description of mass | Shape: Round, Margin: Microlobulated, Density: Equal Density | Invasive lobular carcinoma | 
+| Calcifications | Microcalcifications | Inexact | *..1 | Comparing presence or not in Pathology. Radiology specifies | Suspicious Morphology: Amorphous Distribution: Regional | Present in invasive Carcinoma |
 | Laterality | Specimen Laterality | Equal | 1..1 | For Quality Check | Left | Left |
 
 
