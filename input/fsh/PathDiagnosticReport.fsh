@@ -11,11 +11,11 @@ Usage: #example
 * status = #final
 * category = LNC#LP7839-6 "Pathology"
 * code = LNC#60568-3 "Pathology Synoptic report"
-* subject = Reference(http://example.org/patient)
+* subject = Reference(Patient/q201)
 * subject.display = "Example Patient"
 * effectiveDateTime = "2021-05-11"
-* performer = Reference(http://example.org/practitioner)
-* performer.display = "Example Practitioner"
+* performer = Reference(Practitioner/pathpract1)
+* performer.display = "Luigi Maas"
 * result[0] = Reference(PathLesionSize)
 * result[1] = Reference(PathObsSeminalVesicleInvasion)
 * result[2] = Reference(PathGleason)

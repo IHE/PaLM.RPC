@@ -11,11 +11,11 @@ Usage: #example
 * status = #final
 * category = DiagnosticCodes#RAD "Radiology"
 * code = LNC#68604-8 "Radiology Diagnostic study note"
-* subject = Reference(http://example.org/patient)
+* subject = Reference(Patient/q201)
 * subject.display = "Example Patient"
 * effectiveDateTime = "2021-05-11"
-* performer = Reference(http://example.org/practitioner)
-* performer.display = "Example Practitioner"
+* performer = Reference(Practitioner/radpract1)
+* performer.display = "Kiki Bambrick"
 * result[0] = Reference(RadLeasionSize)
 * result[1] = Reference(RadSeminalVesicleInvasion)
 * result[2] = Reference(RadGleason)
