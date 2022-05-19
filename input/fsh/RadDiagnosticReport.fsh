@@ -10,7 +10,7 @@ Usage: #example
 * identifier.value = "RadDiagnosticReport0"
 * status = #final
 * category = DiagnosticCodes#RAD "Radiology"
-* code = LNC#68604-8 "Radiology Diagnostic study note"
+* code = LNC#30675-3 "MR Prostate"
 * subject = Reference(Patient/q201)
 * subject.display = "Example Patient"
 * effectiveDateTime = "2021-05-11"

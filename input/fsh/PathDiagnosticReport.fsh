@@ -10,7 +10,7 @@ Usage: #example
 * identifier.value = "PathDiagnosticReport0"
 * status = #final
 * category = LNC#LP7839-6 "Pathology"
-* code = LNC#60568-3 "Pathology Synoptic report"
+* code = LNC#66117-3 "Prostate Pathology biopsy report"
 * subject = Reference(Patient/q201)
 * subject.display = "Example Patient"
 * effectiveDateTime = "2021-05-11"
