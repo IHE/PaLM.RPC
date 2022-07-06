@@ -1,0 +1,42 @@
+{
+  "resourceType": "Observation",
+  "id": "PathEPE",
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "385009003",
+        "system": "http://snomed.info/sct",
+        "display": "Presence of direct invasion by primary malignant neoplasm of prostate to periprostatic tissue (observable entity)"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/q201",
+    "display": "Bibata Amadou"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/pathpract1",
+      "display": "Luigi Maas"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "49907008",
+        "system": "http://snomed.info/sct",
+        "display": "Uninvolved (Qualifier Value)"
+      }
+    ]
+  },
+  "bodySite": {
+    "coding": [
+      {
+        "code": "5026003",
+        "system": "http://snomed.info/sct",
+        "display": "Structure of posterior surface of prostate"
+      }
+    ]
+  }
+}

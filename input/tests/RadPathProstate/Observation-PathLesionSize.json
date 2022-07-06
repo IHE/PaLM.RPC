@@ -1,0 +1,39 @@
+{
+  "resourceType": "Observation",
+  "id": "PathLesionSize",
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "385014004",
+        "system": "http://snomed.info/sct",
+        "display": "Tumor size, dominant nodule (observable entity)"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/q201",
+    "display": "Bibata Amadou"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/pathpract1",
+      "display": "Luigi Maas"
+    }
+  ],
+  "valueQuantity": {
+    "value": 100,
+    "code": "mm",
+    "system": "http://unitsofmeasure.org",
+    "unit": "milimeter"
+  },
+  "bodySite": {
+    "coding": [
+      {
+        "code": "5026003",
+        "system": "http://snomed.info/sct",
+        "display": "Structure of posterior surface of prostate"
+      }
+    ]
+  }
+}

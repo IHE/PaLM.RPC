@@ -1,0 +1,71 @@
+{
+  "resourceType": "DiagnosticReport",
+  "id": "RadDiagnosticReport0",
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "code": "ACSN",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "display": "Accession ID"
+          }
+        ]
+      },
+      "system": "http://example.org/DiagnosticReport",
+      "value": "RadDiagnosticReport0"
+    }
+  ],
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "RAD",
+          "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+          "display": "Radiology"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "code": "30675-3",
+        "system": "http://loinc.org",
+        "display": "MR Prostate"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/q201",
+    "display": "Example Patient"
+  },
+  "effectiveDateTime": "2021-05-11",
+  "performer": [
+    {
+      "reference": "Practitioner/radpract1",
+      "display": "Kiki Bambrick"
+    }
+  ],
+  "result": [
+    {
+      "reference": "Observation/RadLeasionSize"
+    },
+    {
+      "reference": "Observation/RadSeminalVesicleInvasion"
+    },
+    {
+      "reference": "Observation/RadGleason"
+    },
+    {
+      "reference": "Observation/RadEPE"
+    }
+  ],
+  "presentedForm": [
+    {
+      "url": "http://example.org/Radiology/RadDiagnosticReport"
+    }
+  ]
+}

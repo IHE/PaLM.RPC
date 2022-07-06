@@ -1,0 +1,42 @@
+{
+  "resourceType": "Observation",
+  "id": "RadGleason",
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "372278000",
+        "system": "http://snomed.info/sct",
+        "display": "Gleason score"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/q201",
+    "display": "Bibata Amadou"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/radpract1",
+      "display": "Kiki Bambrick"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "RID49502",
+        "system": "http://radlex.org",
+        "display": "clinically significant prostate cancer"
+      }
+    ]
+  },
+  "bodySite": {
+    "coding": [
+      {
+        "code": "5026003",
+        "system": "http://snomed.info/sct",
+        "display": "Structure of posterior surface of prostate"
+      }
+    ]
+  }
+}

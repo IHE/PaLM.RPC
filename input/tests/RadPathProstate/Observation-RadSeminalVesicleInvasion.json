@@ -1,0 +1,42 @@
+{
+  "resourceType": "Observation",
+  "id": "RadSeminalVesicleInvasion",
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "384999004",
+        "system": "http://snomed.info/sct",
+        "display": "Status of seminal vesicle invasion by tumor (observable entity)"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/q201",
+    "display": "Bibata Amadou"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/radpract1",
+      "display": "Kiki Bambrick"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "49907008",
+        "system": "http://snomed.info/sct",
+        "display": "Uninvolved (Qualifier Value)"
+      }
+    ]
+  },
+  "bodySite": {
+    "coding": [
+      {
+        "code": "5026003",
+        "system": "http://snomed.info/sct",
+        "display": "Structure of posterior surface of prostate"
+      }
+    ]
+  }
+}

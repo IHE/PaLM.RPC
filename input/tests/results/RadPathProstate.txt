@@ -1,0 +1,16 @@
+Running tests.
+No tests found at /Users/alex/Documents/GitHub/PaLM.RPC/input/tests. Evaluation may fail if data is required.
+No terminology found at /Users/alex/Documents/GitHub/PaLM.RPC/input/vocabulary/valueset. Evaluation may fail if terminology is required.
+Patient=null
+Gleason Score Available=[]
+
+elapsed: -0.54 seconds
+
+Running tests.
+Data path: /Users/alex/Documents/GitHub/PaLM.RPC/input/tests/RadPathProstate
+No terminology found at /Users/alex/Documents/GitHub/PaLM.RPC/input/vocabulary/valueset. Evaluation may fail if terminology is required.
+Patient=null
+Gleason Score Available=[]
+
+elapsed: -0.884 seconds
+

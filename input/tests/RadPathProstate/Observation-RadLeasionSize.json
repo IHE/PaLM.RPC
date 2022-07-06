@@ -1,0 +1,39 @@
+{
+  "resourceType": "Observation",
+  "id": "RadLeasionSize",
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "385014004",
+        "system": "http://snomed.info/sct",
+        "display": "Tumor size, dominant nodule (observable entity)"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/q201",
+    "display": "Bibata Amadou"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/radpract1",
+      "display": "Kiki Bambrick"
+    }
+  ],
+  "valueQuantity": {
+    "value": 110,
+    "code": "mm",
+    "system": "http://unitsofmeasure.org",
+    "unit": "milimeter"
+  },
+  "bodySite": {
+    "coding": [
+      {
+        "code": "5026003",
+        "system": "http://snomed.info/sct",
+        "display": "Structure of posterior surface of prostate"
+      }
+    ]
+  }
+}

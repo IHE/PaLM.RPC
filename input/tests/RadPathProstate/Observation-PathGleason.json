@@ -1,0 +1,42 @@
+{
+  "resourceType": "Observation",
+  "id": "PathGleason",
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "372278000",
+        "system": "http://snomed.info/sct",
+        "display": "Gleason score"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/q201",
+    "display": "Bibata Amadou"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/pathpract1",
+      "display": "Luigi Maas"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "16811",
+        "system": "http://cap.org/eCC",
+        "display": "Score 7"
+      }
+    ]
+  },
+  "bodySite": {
+    "coding": [
+      {
+        "code": "5026003",
+        "system": "http://snomed.info/sct",
+        "display": "Structure of posterior surface of prostate"
+      }
+    ]
+  }
+}
