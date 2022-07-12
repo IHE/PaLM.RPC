@@ -10,7 +10,7 @@ codesystem "RADLEX":  'http://radlex.org'
 
 codesystem "ObservationCategory": 'http://terminology.hl7.org/CodeSystem/observation-category'
 
-// MedicationRequest Category Codes
+// Observation Category Codes
 code "Social History": 'social-history' from "ObservationCategory" display 'Social History'
 code "Vital Signs": 'vital-signs' from "ObservationCategory" display 'Vital Signs'
 code "Imaging": 'imaging' from "ObservationCategory" display 'Imaging'
