@@ -23,7 +23,8 @@ define "Gleason Score Available":
 
 define "Rads clinically significant prostate cancer": 
     "Gleason Score Available" O
-        where (O.value as CodeableConcept) ~ "clinically significant prostate cancer"
+        where (exists O.category C where C ~ "Imaging")
+        and (O.value as CodeableConcept) ~ "clinically significant prostate cancer"
 
 define "Path Score of 7": 
     "Gleason Score Available" O
