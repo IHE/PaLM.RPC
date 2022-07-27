@@ -4,6 +4,7 @@ using FHIR version '4.0.1'
 
 include FHIRHelpers version '4.0.1'
 include FHIRCommon called FC
+include RadPathCommon called RPCcomm
 
 codesystem "SNOMED": 'http://snomed.info/sct'
 codesystem "RADLEX":  'http://radlex.org'
@@ -23,7 +24,7 @@ define "Gleason Score Available":
 
 define "Rads clinically significant prostate cancer": 
     "Gleason Score Available" O
-        where (exists O.category C where C ~ "Imaging")
+        where (exists O.category C where C ~ RPCcomm."Imaging")
         and (O.value as CodeableConcept) ~ "clinically significant prostate cancer"
 
 define "Path Score of 7": 
