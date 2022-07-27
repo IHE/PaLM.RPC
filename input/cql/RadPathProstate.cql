@@ -8,7 +8,7 @@ include RadPathCommon called RPCcomm
 
 codesystem "SNOMED": 'http://snomed.info/sct'
 codesystem "RADLEX":  'http://radlex.org'
-codesystem "CAP": 'http://cap.org/eCC' // is this the right link?
+codesystem "CAP": 'http://cap.org/eCC'
 
 //Gleason Score codes
 code "Gleason Score": '372278000' from SNOMED
