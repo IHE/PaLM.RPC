@@ -5,4 +5,3 @@ Description: "A valueset of terms which may be relevant for comparing Radiology 
 * status = #draft 
 * experimental = true
 * immutable = true
-* 

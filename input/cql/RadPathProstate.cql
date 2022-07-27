@@ -4,10 +4,11 @@ using FHIR version '4.0.1'
 
 include FHIRHelpers version '4.0.1'
 include FHIRCommon called FC
+include RadPathCommon called RPCcom
 
 codesystem "SNOMED": 'http://snomed.info/sct'
 codesystem "RADLEX":  'http://radlex.org'
-codesystem "CAP": 'http://cap.org/eCC' // is this the right link?
+codesystem "CAP": 'http://cap.org/eCC' 
 
 //Gleason Score codes
 code "Gleason Score": '372278000' from SNOMED
@@ -23,10 +24,15 @@ define "Gleason Score Available":
 
 define "Rads clinically significant prostate cancer": 
     "Gleason Score Available" O
-        where (exists O.category C where C ~ "Imaging")
+        where (exists O.category C where C ~ RPCcom."Imaging")
         and (O.value as CodeableConcept) ~ "clinically significant prostate cancer"
 
 define "Path Score of 7": 
     "Gleason Score Available" O
-        where (O.value as CodeableConcept) ~ "Score 7"
+        where (exists O.category C where C ~ RPCcom."Laboratory")
+        and (O.value as CodeableConcept) ~ "Score 7"
 
+// define "Path Structure of posterior prostate": 
+//     "Gleason Score Available" O
+//         where (exists O.category C where C ~ RPCcom."Laboratory")
+//         and (O.value as CodeableConcept) ~ "Structure of posterior surface of prostate"
