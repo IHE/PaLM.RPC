@@ -7,7 +7,7 @@ will be included in a new integrated report.
 
 Use cases include the correlation of structured reporting data for Breast, Prostate and Thyroid175
 cancers, as well as the use of integrated diagnostic reports for radiologist training, as well as a
-tool in MCC’s and Tumor Board discussions to support decision making for patient care.
+tool in MCC’s and Tumor Board discussions to support decision making for patient care. 
 
 [Open and Closed Issues](issues.html)
 
